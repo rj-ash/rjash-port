@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "date": "07/10/2022",
+      "title": "TECHY STAR",
+      "description": "The project involves creating a user interface (UI) for a single-page website using React, a popular JavaScript library for building user interfaces. The key features of this project include implementing routing and ensuring the website is responsive across different devices.",
+      "url": "https://reactone-nine.vercel.app",
+      "imgSrc": "https://cdn.pixabay.com/photo/2018/05/18/15/32/vr-3411378_1280.jpg"
+    },
+
+    {
+      "date": "11/10/2022",
+      "title": "VIDEO HUB",
+      "description": "For this project, you are developing a multi-theme user interface for a single-page website using React, with the addition of Chakra UI, a popular React library that enables building accessible websites and applications with speed.",
+      "url": "https://react-video-app-eight.vercel.app",
+      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+    },
+    {
+      "date": "15/10/2022",
+      "title": "XCrypto",
+      "description": "The project involves creating an advanced single-page application that displays real-time financial data, specifically focusing on currency exchanges and cryptocurrencies. It leverages APIs to fetch and display this data dynamically, ensuring that users receive the most current information available.",
+      "url": "https://react-crypto-app-pi.vercel.app",
+      "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
+    },
+
+    {
+      "date": "17/10/2022",
+      "title": "REACT CART",
+      "description": "This project involved developing an interactive online shopping cart system with features that let users choose products, modify quantities, review their choices, and checkout, aiming to replicate the efficiency and user-friendliness of a major e-commerce platform.",
+      "url": "https://react-cart-eosin.vercel.app",
+      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+    },
+    {
+      "date": "20/10/2022",
+      "title": "PORTFOLIO",
+      "description": "This is my portfolio website where I showase all of my works, primarily tech related projects and redirection to other works (music and video projects). I have created this using react js along with various libraries.",
+      "url": "/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+    }
+  ]
+
+}
+
+

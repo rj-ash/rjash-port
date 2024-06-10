@@ -1,0 +1,17 @@
+@keyframes upanddown {
+    to{
+        transform: translateY(-5px);
+    }
+    
+}
+@keyframes upupdowndown {
+    to{
+        transform: translateY(-15px);
+    }
+}
+@keyframes up {
+    to{
+        transform: translateY(10px);
+    }
+    
+}

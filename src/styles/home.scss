@@ -1,0 +1,136 @@
+#home {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  > section {
+    width: 100%;
+
+    &:first-of-type {
+      padding-left: $p;
+      > div {
+        border-top: 1px solid $color6_2;
+        height: 100%;
+        padding-top: 6rem;
+
+        > h1 {
+          font: 900 4rem $text1;
+        }
+        > div {
+          display: flex;
+          align-items: center;
+          margin: 1rem 0;
+          width: 70%;
+          gap: 4rem;
+
+          > a {
+            &:first-of-type {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 0.7rem;
+              color: $color1;
+              background-color: $color3;
+              padding: 1rem 2.5rem;
+              transition: all 0.3s;
+              &:hover {
+                background-color: $color3_1;
+              }
+              .guitar-icon {
+                font-size: 2.25rem;
+              }
+            }
+
+            &:last-of-type {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 0.7rem;
+              color: $color1;
+              background-color: $color3;
+              padding: 1rem 2.5rem;
+              transition: all 0.3s;
+              &:hover {
+                background-color: $color3_1;
+              }
+              .vid-icon {
+                font-size: 1.75rem;
+              }
+            }
+          }
+        }
+
+        > article {
+          margin: 2rem 0;
+          width: 10rem;
+          color: $color5;
+          > div {
+            display: flex;
+            justify-content: space-evenly;
+            font: 900 2rem $text2;
+          }
+          #maillogo {
+            margin-top: 7px;
+            margin-right: 6px;
+          }
+          > span {
+            font: 500 1rem $text2;
+          }
+        }
+
+        > aside {
+          display: flex;
+          justify-content: space-between;
+          width: 70%;
+          > article {
+            margin: 2rem 0;
+            width: 10rem;
+            color: $color5;
+            > p {
+              font: 900 2rem $text2;
+            }
+            > span {
+              font: 500 1rem $text2;
+            }
+          }
+          > article {
+            width: 16rem;
+          }
+        }
+      }
+      .typewritterpara {
+        height: 20px;
+        margin: 10px 0;
+        letter-spacing: 5px;
+        font-size: 25px;
+      }
+    }
+
+    &:last-of-type {
+      border-top: 1px solid $color6_2;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      overflow-x: hidden;
+
+    //   &::after {
+    //     content: "";
+    //     height: 40vmax;
+    //     width: 40vmax;
+    //     background-color: $color3;
+    //     z-index: -1;
+    //     border-radius: 50%;
+    //     position: absolute;
+    //   }
+
+      > img {
+        width: 50vmax;
+        height: 50vmax;
+        object-fit: contain;
+        position: absolute;
+        top: 100px;
+        right: -40px;
+      }
+    }
+  }
+}
